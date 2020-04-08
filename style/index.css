@@ -1,1 +1,81 @@
 /* Add CSS styling here */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 1px solid turquoise;
+    background-color: black;
+    background-image: url("../images/starz.gif");
+    background-repeat: repeat;
+    background-attachment: fixed;
+}
+
+#topPage {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h2 {
+    color: deeppink;
+    width: 50%;
+    font-family: 'Fredoka One', cursive;
+}
+
+#kaoAni {
+    width: 25%;
+}
+
+h1 {
+    color: rebeccapurple;
+    font-family: 'Fredoka One', cursive;
+    font-size: 300%;
+}
+
+.welcome {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+nav a {
+    color :white;
+}
+
+nav a:hover {
+    color: hotpink;
+}
+
+button {
+    color: chartreuse;
+}
+
+.videos {
+
+}
+
+.videosTopRow {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.videosTopRow div {
+    padding: 1%;
+    
+}
+.videosBottomRow {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.videosBottomRow div {
+    padding: 1%;
+}
+
+footer a img {
+width: 65px;
+height: 65px;
+}
+
