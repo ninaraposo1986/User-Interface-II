@@ -3,21 +3,27 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    border: 1px solid white;
-    background-color: black;
+    
     background-image: url("../images/starz.gif");
     background-repeat: repeat;
     background-attachment: fixed;
+}
+
+body {
+border: 20px double violet;
+border-radius: 10px;
+background-color: black;
 }
 
 #topPage {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 20px;
 }
 
 h2 {
-    color: hotpink;
+    color: whitesmoke;
     width: 50%;
     font-family: 'Fredoka One', cursive;
     font-size: 40px;
@@ -41,15 +47,21 @@ h1 {
 }
 
 nav a {
-    color :white;
+    
+    color: white;
 }
 
 nav a:hover {
-    color: hotpink;
+    color: whitesmoke;
 }
 
 button {
-    color: chartreuse;
+    background-color: rgb(54, 54, 54);
+    padding: 6px;
+    margin: 6px;
+    width: 90px;
+    border: 10px double whitesmoke;
+    border-radius: 10px;
 }
 
 iframe {
@@ -64,7 +76,7 @@ iframe {
 
 .videoRow div {
     margin: 1%;
-    border: 10px double white;
+    border: 10px double whitesmoke;
     border-radius: 10px;
 }
 
