@@ -51,6 +51,7 @@ nav {
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-end;
+    width: 80%;
 }
 
 
@@ -92,6 +93,8 @@ iframe {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 .videoRow div {
@@ -122,9 +125,29 @@ footer a img {
 
 /*******************M E D I A  Q U E R I E S*********************/
 
+@media(max-width: 937px) {
+    .videoRow {
+        flex-direction: row;
+        align-items: space-evenly;
+        max-width: 200%;
+    }
+}
+
 /* TABLET SIZE! */
 @media(max-width: 800px) {
+    
+    nav {
+        width: 50%;
+    }
+    
+    #kaoAni {
+        width: 50%;
+    }
 
+    .videoRow {
+        flex-direction: row;
+        align-items: space-evenly;
+    }
 }
 
 /* MOBILE SIZE! */
