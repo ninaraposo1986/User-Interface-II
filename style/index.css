@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
+    background-color: black;
     background-image: url("../images/starz.gif");
     background-repeat: repeat;
     background-attachment: fixed;
@@ -12,7 +12,6 @@
 body {
 border: 20px double violet;
 border-radius: 10px;
-background-color: black;
 }
 
 #topPage {
@@ -38,6 +37,7 @@ h1 {
     color: rebeccapurple;
     font-family: 'Fredoka One', cursive;
     font-size: 300%;
+    margin-bottom: 40px;
 }
 
 .welcome {
@@ -49,18 +49,32 @@ h1 {
 nav a {
     
     color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
 }
 
 nav a:hover {
-    color: whitesmoke;
+    color: violet;
+    text-transform: uppercase;
+}
+
+.intro {
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 22px;
+    margin-bottom: 40px;
+    width: 50%;
+    text-align: center;
+
 }
 
 button {
-    background-color: rgb(54, 54, 54);
     padding: 6px;
     margin: 6px;
-    width: 90px;
-    border: 10px double whitesmoke;
+    width: 120px;
+    border: 5px solid turquoise;
     border-radius: 10px;
 }
 
@@ -80,9 +94,18 @@ iframe {
     border-radius: 10px;
 }
 
+.thanks {
+color: rgb(10, 233, 166);
+text-align: center;
+font-family: 'Fredoka One', cursive;
+font-size: 40px;
+margin-top: 25px;
+}
+
 footer {
     display: flex;
     justify-content: center;
+    margin-top: 20px;
 }
 
 footer a img {
