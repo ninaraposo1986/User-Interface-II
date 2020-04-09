@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    border: 1px solid turquoise;
+    border: 1px solid white;
     background-color: black;
     background-image: url("../images/starz.gif");
     background-repeat: repeat;
@@ -17,9 +17,10 @@
 }
 
 h2 {
-    color: deeppink;
+    color: hotpink;
     width: 50%;
     font-family: 'Fredoka One', cursive;
+    font-size: 40px;
 }
 
 #kaoAni {
@@ -27,6 +28,7 @@ h2 {
 }
 
 h1 {
+    text-align: center;
     color: rebeccapurple;
     font-family: 'Fredoka One', cursive;
     font-size: 300%;
@@ -50,32 +52,30 @@ button {
     color: chartreuse;
 }
 
-.videos {
-
+iframe {
+    display:block;
 }
 
-.videosTopRow {
+.videoRow {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
 }
 
-.videosTopRow div {
-    padding: 1%;
-    
-}
-.videosBottomRow {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
+.videoRow div {
+    margin: 1%;
+    border: 10px double white;
+    border-radius: 10px;
 }
 
-.videosBottomRow div {
-    padding: 1%;
+footer {
+    display: flex;
+    justify-content: center;
 }
 
 footer a img {
 width: 65px;
 height: 65px;
+margin: 10px;
 }
 
