@@ -126,10 +126,8 @@ footer a img {
 /*******************M E D I A  Q U E R I E S*********************/
 
 @media(max-width: 937px) {
-    .videoRow {
-        flex-direction: row;
-        align-items: space-evenly;
-        max-width: 200%;
+    nav {
+        width: 40%;
     }
 }
 
