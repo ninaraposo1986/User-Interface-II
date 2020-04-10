@@ -1,1 +1,200 @@
 /* Add CSS styling here */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+    background-image: url("../images/starz.gif");
+    background-repeat: repeat;
+    background-attachment: fixed;
+}
+
+body {
+    border: 20px double violet;
+    border-radius: 10px;
+    font-size: 1rem;
+}
+
+#topPage {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+h2 {
+    color: whitesmoke;
+    width: 50%;
+    font-family: 'Fredoka One', cursive;
+    font-size: 2.5rem;
+}
+
+#kaoAni {
+    width: 25%;
+}
+
+h1 {
+    text-align: center;
+    color: rebeccapurple;
+    font-family: 'Fredoka One', cursive;
+    font-size: 3rem;
+    margin-bottom: 40px;
+}
+
+.welcome {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    width: 80%;
+}
+
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.25rem;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: violet;
+    text-transform: uppercase;
+}
+
+.intro {
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.375rem;
+    margin-bottom: 30px;
+    width: 50%;
+    text-align: center;
+}
+
+button {
+    padding: 6px;
+    margin: 6px;
+    width: 120px;
+    border: 5px solid turquoise;
+    border-radius: 10px;
+}
+
+iframe {
+    display:block;
+}
+
+.videoRow {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.videoRow div {
+    margin: 1%;
+    border: 10px double whitesmoke;
+    border-radius: 10px;
+}
+
+.thanks {
+    color: #23ffc8;
+    text-align: center;
+    font-family: 'Fredoka One', cursive;
+    font-size: 2.5rem;
+    margin-top: 25px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+footer a img {
+    width: 65px;
+    height: 65px;
+    margin: 10px;
+}
+
+/*******************M E D I A  Q U E R I E S*********************/
+
+/* TABLET SIZE! */
+@media(max-width: 937px) {
+    nav {
+        width: 40%;
+    }
+
+    .intro {
+        width: 85%;
+        font-size: 1.375rem;
+    }
+}
+
+/* TABLET SIZE! */
+@media(max-width: 800px) {
+    nav {
+        width: 50%;
+    }
+    
+    #kaoAni {
+        width: 50%;
+    }
+
+    .videoRow {
+        flex-direction: row;
+        align-items: space-evenly;
+    }
+}
+
+/* MOBILE SIZE! */
+@media(max-width: 500px) {
+    nav {
+        width: 80%;
+    }
+
+    #kaoAni {
+        width: 50%;
+        height: 50%;
+    }
+
+    .intro {
+        width: 25rem;
+        font-size: 1.188rem;
+    }
+
+    .videoRow div {
+        margin: 3%;
+    }
+
+    .thanks {
+        display: none;
+    }
+}
+
+/* MOBILE SIZE! */
+@media(max-width: 465px) {
+    .intro {
+        display:none;
+    }
+
+    h1 {
+        margin-bottom: 10px;
+    }
+
+    footer a img {
+        width: 50px;
+        height: 50px;
+        margin: 10px;
+    }
+}
+
+
+
+
