@@ -125,15 +125,20 @@ footer a img {
 
 /*******************M E D I A  Q U E R I E S*********************/
 
+/* TABLET SIZE! */
 @media(max-width: 937px) {
     nav {
         width: 40%;
+    }
+
+    .intro {
+        width: 85%;
+        font-size: 1.375rem;
     }
 }
 
 /* TABLET SIZE! */
 @media(max-width: 800px) {
-    
     nav {
         width: 50%;
     }
@@ -150,8 +155,46 @@ footer a img {
 
 /* MOBILE SIZE! */
 @media(max-width: 500px) {
-    
+    nav {
+        width: 80%;
+    }
+
+    #kaoAni {
+        width: 50%;
+        height: 50%;
+    }
+
+    .intro {
+        width: 25rem;
+        font-size: 1.188rem;
+    }
+
+    .videoRow div {
+        margin: 3%;
+    }
+
+    .thanks {
+        display: none;
+    }
 }
+
+/* MOBILE SIZE! */
+@media(max-width: 465px) {
+    .intro {
+        display:none;
+    }
+
+    h1 {
+        margin-bottom: 10px;
+    }
+
+    footer a img {
+        width: 50px;
+        height: 50px;
+        margin: 10px;
+    }
+}
+
 
 
 
