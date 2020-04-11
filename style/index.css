@@ -30,14 +30,16 @@ h2 {
 }
 
 #kaoAni {
-    width: 25%;
+    width: 40%;
+    height: 40%;
+    margin-bottom: 30px;
 }
 
 h1 {
     text-align: center;
     color: rebeccapurple;
     font-family: 'Fredoka One', cursive;
-    font-size: 3rem;
+    font-size: 3.2rem;
     margin-bottom: 40px;
 }
 
@@ -127,19 +129,7 @@ footer a img {
 
 /*******************M E D I A  Q U E R I E S*********************/
 
-@media(max-width: 272px) {
-    body {
-        border: none;
-    }
 
-    iframe {
-        width: 250px;
-        height: 156px;
-    }
-
-
-
-}
 
 
 
@@ -165,6 +155,7 @@ footer a img {
     
     #kaoAni {
         width: 50%;
+        height: 50%;
     }
 
     .videoRow {
@@ -180,8 +171,8 @@ footer a img {
     }
 
     #kaoAni {
-        width: 50%;
-        height: 50%;
+        width: 75%;
+        height: 75%;
     }
 
     .intro {
@@ -208,6 +199,11 @@ footer a img {
         margin-bottom: 10px;
     }
 
+    kaoAni {
+        width: 80%
+        height: 80%
+    }
+
     footer a img {
         width: 50px;
         height: 50px;
@@ -215,6 +211,65 @@ footer a img {
     }
 }
 
+@media(max-width: 410px) {
+    body {
+        border: none;
+    }
+}
 
+@media(max-width: 272px) {
+    
+    * {
+        margin: 0 auto;
+    }
+
+    nav {
+        width: 100%;
+        justify-content: center;
+    }
+
+    #topPage {
+        padding: 0;
+    }
+
+    #kaoAni {
+        width: 85%;
+        height: 85%;
+        margin-top: 15px;
+
+    }
+
+    h1 {
+        font-size: 2rem
+    }
+
+    h2 {
+        display: none;
+    }
+    
+    body {
+        border: none;
+    }
+
+    iframe {
+        width: 235px;
+        height: 147px;
+    }
+
+    .video {
+        display: flex;
+        align-items: center;
+    }
+
+    footer {
+        width: 20px;
+    }
+
+    footer a img {
+        width: 35px;
+        height: 35px;
+    }
+
+}
 
 
