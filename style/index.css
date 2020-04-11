@@ -125,6 +125,21 @@ footer a img {
 
 /*******************M E D I A  Q U E R I E S*********************/
 
+@media(max-width: 272px) {
+    body {
+        border: none;
+    }
+
+    .videos {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+
+
+
+
 /* TABLET SIZE! */
 @media(max-width: 937px) {
     nav {
