@@ -87,6 +87,8 @@ button {
 
 iframe {
     display:block;
+    width: 330px;
+    height: 206px;
 }
 
 .videoRow {
@@ -130,10 +132,13 @@ footer a img {
         border: none;
     }
 
-    .videos {
-        display: flex;
-        flex-wrap: wrap;
+    iframe {
+        width: 250px;
+        height: 156px;
     }
+
+
+
 }
 
 
